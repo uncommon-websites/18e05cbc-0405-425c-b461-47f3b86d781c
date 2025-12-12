@@ -17,20 +17,20 @@
 			<div>
 				<h4 class="font-mono text-xs uppercase text-muted mb-4">Contact</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="mailto:hello@parallel.ai" class="hover:text-foreground">hello@parallel.ai</a></li>
+					<li><a href="mailto:support@onlyfansapi.com" class="hover:text-foreground">support@onlyfansapi.com</a></li>
 				</ul>
 			</div>
 
-			<!-- Products -->
+			<!-- API Features -->
 			<div>
-				<h4 class="font-mono text-xs uppercase text-muted mb-4">Products</h4>
+				<h4 class="font-mono text-xs uppercase text-muted mb-4">API Features</h4>
 				<ul class="space-y-2 text-xs font-mono text-muted">
-					<li><a href="#" class="hover:text-foreground">Search API</a></li>
-					<li><a href="#" class="hover:text-foreground">Extract API</a></li>
-					<li><a href="#" class="hover:text-foreground">Task API</a></li>
-					<li><a href="#" class="hover:text-foreground">FindAll API</a></li>
-					<li><a href="#" class="hover:text-foreground">Chat API</a></li>
-					<li><a href="#" class="hover:text-foreground">Monitor API</a></li>
+					<li><a href="#" class="hover:text-foreground">Authentication</a></li>
+					<li><a href="#" class="hover:text-foreground">Messages API</a></li>
+					<li><a href="#" class="hover:text-foreground">Subscriptions</a></li>
+					<li><a href="#" class="hover:text-foreground">Revenue Tracking</a></li>
+					<li><a href="#" class="hover:text-foreground">Webhooks</a></li>
+					<li><a href="#" class="hover:text-foreground">Team Management</a></li>
 				</ul>
 			</div>
 
@@ -42,8 +42,8 @@
 					<li><a href="#" class="hover:text-foreground">Pricing</a></li>
 					<li><a href="#" class="hover:text-foreground">Docs</a></li>
 					<li><a href="#" class="hover:text-foreground">Blog</a></li>
-					<li><a href="#" class="hover:text-foreground">Changelog</a></li>
-					<li><a href="#" class="hover:text-foreground">Careers</a></li>
+					<li><a href="#" class="hover:text-foreground">Customers</a></li>
+					<li><a href="#" class="hover:text-foreground">Status</a></li>
 				</ul>
 			</div>
 
@@ -58,11 +58,11 @@
 					<li><a href="#" class="hover:text-foreground">Trust Center</a></li>
 				</ul>
 				
-				<!-- SOC 2 Badge -->
-				<div class="w-16 h-16 border-2 border-black rounded-full flex items-center justify-center relative">
+				<!-- ZERO Badge -->
+				<div class="w-16 h-16 border-2 border-primary-600 rounded-full flex items-center justify-center relative">
 					<div class="absolute inset-0 rounded-full border border-white m-0.5"></div>
 					<div class="text-[8px] font-bold text-center leading-tight">
-						SOC 2<br>TYPE II
+						ZERO<br>BANS
 					</div>
 					<div class="absolute -bottom-1 -right-1 w-4 h-4 bg-black rounded-full flex items-center justify-center text-white text-[8px]">✓</div>
 				</div>
@@ -88,7 +88,7 @@
 				</div>
 			</div>
 			<div>
-				Parallel Web Systems Inc. 2025
+				OnlyFans API Infrastructure 2025
 			</div>
 		</div>
 	</div>
@@ -105,12 +105,16 @@
 
 		<div class="relative z-10 flex items-center gap-4 text-[10px] font-mono text-white/50">
 			<div class="flex items-center gap-2 text-white">
-				<span class="w-2 h-2 bg-white rounded-full"></span>
-				HUMAN
+				<span class="w-2 h-2 bg-primary-500 rounded-full"></span>
+				SECURE
+			</div>
+			<div class="flex items-center gap-2 text-white">
+				<span class="w-2 h-2 bg-green-500 rounded-full"></span>
+				RELIABLE
 			</div>
 			<div class="flex items-center gap-2">
 				<span class="w-2 h-2 border border-white/50 rounded-full"></span>
-				MACHINE
+				TRUSTED
 			</div>
 		</div>
 	</div>

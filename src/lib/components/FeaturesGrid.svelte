@@ -2,27 +2,27 @@
 	<div class="container-custom">
 		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Highest accuracy</h3>
+				<h3 class="font-medium text-sm">Zero-ban security</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Production-ready outputs built on cross-referenced facts, with minimal hallucination.
+					5+ years of operation with zero account bans across 10,000+ accounts. Bank-grade AES-256 encryption.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Predictable costs</h3>
+				<h3 class="font-medium text-sm">Complete coverage</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Flex compute budget based on task complexity. Pay per query, not per token.
+					200+ API endpoints including full login system with 2FA and face verification. Only provider with complete auth module.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Evidence-based outputs</h3>
+				<h3 class="font-medium text-sm">Production-ready</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					Verifiability and provenance for every atomic output.
+					99.9% uptime with 300ms write latency. Processes millions of requests daily with proven reliability.
 				</p>
 			</div>
 			<div class="space-y-2">
-				<h3 class="font-medium text-sm">Trusted</h3>
+				<h3 class="font-medium text-sm">Developer-first</h3>
 				<p class="text-xs text-muted leading-relaxed">
-					SOC-II Type 2 Certified, trusted by leading startups and enterprises.
+					Live API playground, complete documentation, real-time webhooks, and white glove support for enterprise.
 				</p>
 			</div>
 		</div>
@@ -34,22 +34,30 @@
 		<div class="grid grid-cols-1 md:grid-cols-4 gap-8 items-center">
 			<div class="md:col-span-1">
 				<p class="font-mono text-xs text-muted w-3/4">
-					Powering the best AIs using the web
+					Trusted by 100+ platforms in the creator economy
 				</p>
 			</div>
-			<div class="md:col-span-3 flex flex-wrap items-center justify-between gap-8 grayscale opacity-70 hover:opacity-100 transition-opacity">
-				<!-- Logo Placeholders -->
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-red-500 rounded-sm"></div>
-					floqer
+			<div class="md:col-span-3 flex flex-wrap items-center justify-between gap-8 opacity-70 hover:opacity-100 transition-opacity">
+				<!-- Customer Logos -->
+				<div class="flex items-center gap-2 font-semibold text-base">
+					<div class="w-5 h-5 bg-primary-500 rounded"></div>
+					FansMetrics
 				</div>
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-blue-500 rounded-full"></div>
-					genpact
+				<div class="flex items-center gap-2 font-semibold text-base">
+					<div class="w-5 h-5 bg-blue-500 rounded-full"></div>
+					Infloww
 				</div>
-				<div class="flex items-center gap-2 font-bold text-xl">
-					<div class="w-6 h-6 bg-pink-500 rounded-full border-2 border-black"></div>
-					Gumloop
+				<div class="flex items-center gap-2 font-semibold text-base">
+					<div class="w-5 h-5 bg-purple-500 rounded"></div>
+					CreatorHero
+				</div>
+				<div class="flex items-center gap-2 font-semibold text-base">
+					<div class="w-5 h-5 bg-pink-500 rounded-full"></div>
+					Hello Butter
+				</div>
+				<div class="flex items-center gap-2 font-semibold text-base">
+					<div class="w-5 h-5 bg-indigo-500 rounded"></div>
+					Juicy Bio
 				</div>
 			</div>
 		</div>

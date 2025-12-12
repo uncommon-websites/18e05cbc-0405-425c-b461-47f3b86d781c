@@ -6,95 +6,101 @@
 			<div class="flex flex-col h-full">
 				<div class="mb-8">
 					<p class="font-mono text-xs text-muted mb-4">Start building</p>
-					<h2 class="text-2xl font-medium mb-4">Towards a programmatic web for AIs</h2>
+					<h2 class="text-2xl font-medium mb-4">Power your creator platform today</h2>
 					<p class="text-muted font-light mb-8 text-sm leading-relaxed max-w-md">
-						Parallel is building new interfaces, infrastructure, and business models for AIs to work with the web
+						Join 100+ platforms and 2,000+ developers building the future of the creator economy with reliable OnlyFans API infrastructure
 					</p>
 					<div class="flex gap-3 mb-12">
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							TRY IT FOR FREE
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">P</span>
+							START FREE TRIAL
+							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">F</span>
 						</button>
 						<button class="border border-border px-3 py-1.5 text-xs font-mono uppercase hover:bg-primary-50 transition-colors flex items-center gap-2">
-							JOIN US
-							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">J</span>
+							BOOK A CALL
+							<span class="text-muted border border-muted/30 rounded px-1 text-[9px] min-w-[16px] text-center">C</span>
 						</button>
 					</div>
 				</div>
 				
-				<!-- Barcode Visual -->
-				<div class="mt-auto w-full h-48 bg-black relative overflow-hidden flex items-center justify-center">
-					{#each Array(100) as _, i}
-						<div 
-							class="h-full bg-white absolute" 
-							style="
-								left: {i}%; 
-								width: {Math.random() * 2}%; 
-								opacity: {Math.random()};
-							"
-						></div>
-					{/each}
-					<div class="absolute inset-0 flex items-center justify-center">
-						<div class="bg-black text-white font-mono text-[10px] px-2 py-1 z-10">
-							parallel.web
+				<!-- API Stats Visual -->
+				<div class="mt-auto w-full h-48 bg-gradient-to-br from-gray-900 to-black relative overflow-hidden flex items-center justify-center border border-gray-700 rounded">
+					<!-- Grid pattern -->
+					<div class="absolute inset-0" style="background-image: linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px); background-size: 20px 20px;"></div>
+					
+					<!-- Stats -->
+					<div class="relative z-10 grid grid-cols-3 gap-8 text-center">
+						<div>
+							<div class="text-2xl font-bold text-white mb-1">10K+</div>
+							<div class="text-[10px] text-gray-400 font-mono">ACCOUNTS</div>
+						</div>
+						<div>
+							<div class="text-2xl font-bold text-primary-400 mb-1">0</div>
+							<div class="text-[10px] text-gray-400 font-mono">BANS</div>
+						</div>
+						<div>
+							<div class="text-2xl font-bold text-white mb-1">5+</div>
+							<div class="text-[10px] text-gray-400 font-mono">YEARS</div>
 						</div>
 					</div>
+
+					<!-- Accent glow -->
+					<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-primary-600/10 rounded-full blur-3xl"></div>
 				</div>
 			</div>
 
 			<!-- Right Column: Updates -->
 			<div>
-				<p class="font-mono text-xs text-muted mb-8">Latest updates</p>
+				<p class="font-mono text-xs text-muted mb-8">Company milestones</p>
 				
 				<div class="space-y-12">
 					<!-- Update 1 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 20</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">2024</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Extract</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-primary-600 transition-colors cursor-pointer">OnlyFans API Platform Launch</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Extract converts web pages into LLM-ready markdown format. It operates in two modes: compressed excerpts (dense, semantically relevant content) and full content extraction (complete page content). The API is designed for AI agents and handles challenging web content including JavaScript-rendered sites and complex PDFs, making it useful for tasks like documentation extraction, research paper processing, and financial filing analysis.
+								Launched next-generation API infrastructure for the creator economy. Providing 200+ endpoints with complete coverage including authentication, messaging, subscriptions, and revenue tracking. Built on 5+ years of proven reliability from FansMetrics.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Launch</span>
 						</div>
 					</div>
 
 					<!-- Update 2 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 15</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">2023</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel FindAll</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-primary-600 transition-colors cursor-pointer">FansMetrics Acquisition</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel's new FindAll API turns natural language queries into custom datasets from the web. It finds entities like companies, people, or locations based on your criteria, then enriches them with structured data—all with citations. FindAll Pro achieves 61% recall, 3x better than competitors.
+								Successfully acquired FansMetrics, the #1 global OnlyFans search engine and CRM platform. Featured in Acquire.com startup acquisition episode 94. This acquisition brought proven technology and deep platform expertise to our API infrastructure.
 							</p>
 							<div class="flex gap-2">
-								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
-								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Benchmarks</span>
+								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Acquisition</span>
+								<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Featured</span>
 							</div>
 						</div>
 					</div>
 
 					<!-- Update 3 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 13</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">2021</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Introducing Parallel Monitor</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-primary-600 transition-colors cursor-pointer">FansMetrics Launch</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel Monitor can be thought of as a web search that's always on: you define a query that kicks off an ongoing stream of updates every time new related information appears on the web.
+								Launched FansMetrics as the first OnlyFans CRM and search engine. Established foundation for zero-ban security infrastructure and reliable API access that now powers 100+ platforms.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Product Release</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Company History</span>
 						</div>
 					</div>
 
 					<!-- Update 4 -->
 					<div class="flex gap-8 group">
-						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">November 12</div>
+						<div class="font-mono text-xs text-muted w-24 shrink-0 pt-1">Ongoing</div>
 						<div>
-							<h3 class="font-medium text-sm mb-2 group-hover:text-accent transition-colors cursor-pointer">Parallel raises $100M Series A to build web infrastructure for agents</h3>
+							<h3 class="font-medium text-sm mb-2 group-hover:text-primary-600 transition-colors cursor-pointer">Zero Bans Achievement</h3>
 							<p class="text-xs text-muted leading-relaxed mb-3">
-								Parallel raises $100M Series A at a 740M valuation.
+								Maintained perfect security record with zero account bans across 10,000+ accounts over 5+ years of operation. Processing millions of requests daily with 99.9% uptime and bank-grade AES-256 encryption.
 							</p>
-							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Fundraise</span>
+							<span class="bg-gray-100 text-[10px] px-1.5 py-0.5 rounded text-muted">Milestone</span>
 						</div>
 					</div>
 				</div>
